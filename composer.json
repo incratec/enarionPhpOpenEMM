@@ -1,5 +1,5 @@
 {
-    "name": "incratec/enarionPhpOpenEMM",
+    "name": "incratec/enarion-php-openeMM",
     "type": "library",
     "description": "PHP class for OpenEMM",
     "keywords": ["openemm","email marketing"],
