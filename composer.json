@@ -1,0 +1,19 @@
+{
+    "name": "incratec/enarionPhpOpenEMM",
+    "type": "library",
+    "description": "PHP class for OpenEMM",
+    "keywords": ["openemm","email marketing"],
+    "homepage": "https://github.com/incratec/enarionPhpOpenEMM",
+    "license": "MIT",
+    "version": 1.1,
+    "authors": [
+        {
+            "name": "Tobias Kluge",
+            "homepage": "http://incratec.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=4.4.0"
+    },
+}
