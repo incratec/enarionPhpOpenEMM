@@ -6,7 +6,7 @@
  * Requirements: PHP5, SOAP module; OpenEMM 5.5.1 with webservices enabled
  *
  * @author Tobias Kluge / incratec
- * @license GPL v3
+ * @license MIT
  * @copyright Copyright &copy; 2008-2009, Tobias Kluge, http://enarion.net/programming/php/openemm/
  * @version 1.1 from 2009-06-11
  * 
