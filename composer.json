@@ -15,5 +15,8 @@
     ],
     "require": {
         "php": ">=4.4.0"
+    },
+    "autoload": {
+        "files": ["OpenEMM.class.php"]
     }
 }

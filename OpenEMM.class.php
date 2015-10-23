@@ -388,7 +388,17 @@ class OpenEMM {
 		);
 		$soapResult = $this->soapClient->__soapCall('getSubscriberBinding', $params);
 		// TODO check + validate result
-		return $this->__generateArrayFromSOAPResult($soapResult->paramNames->x, $soapResult->paramValues->x);
+		if (is_object($soapResult)) {
+			return $this->__generateArrayFromSOAPResult($soapResult->paramNames->x, $soapResult->paramValues->x);
+		} else {
+			list($userStatus, $userType, $mediaType, $userRemark) = explode(';', $soapResult);
+			return array(
+				'userStatus' => $userStatus,
+				'userType' => $userType,
+				'mediaType' => $mediaType,
+				'userRemark' => $userRemark,
+			);
+		}
 	}
 
 	/**
