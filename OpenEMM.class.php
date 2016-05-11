@@ -31,7 +31,7 @@ class OpenEMM {
 	 * @param string $openemm_password contains the login password/secret for OpenEMM webservice interface
 	 * @param array $soap_parameter (optional) contains parameters that are forwarded directly to the soap class of PHP (e.g. proxy, authentification, ...)
 	 */
-	public function OpenEMM($wsdl_url, $openemm_login, $openemm_password, $soap_parameter = array ()) {
+	public function __construct($wsdl_url, $openemm_login, $openemm_password, $soap_parameter = array ()) {
 		$this->soapClient = new SoapClient($wsdl_url, $soap_parameter);
 		$this->loginCredential['login'] = $openemm_login;
 		$this->loginCredential['password'] = $openemm_password;
