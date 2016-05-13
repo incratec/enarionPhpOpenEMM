@@ -5,7 +5,7 @@
     "keywords": ["openemm","email marketing"],
     "homepage": "https://github.com/incratec/enarionPhpOpenEMM",
     "license": "MIT",
-    "version": "1.1",
+    "version": "2.0.0",
     "authors": [
         {
             "name": "Tobias Kluge",
@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "php": ">=4.4.0"
+        "php": ">=5.0.0"
     },
     "autoload": {
         "files": ["OpenEMM.class.php"]
